@@ -1,0 +1,20 @@
+@import "../abstracts/variables";
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: $color_grey_dark;
+    padding: 30px;
+    box-sizing: border-box;
+}

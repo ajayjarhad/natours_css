@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "A CSS project with SASS",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajayjarhad/natours_css.git"
+  },
+  "author": "Ajay Jarhad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajayjarhad/natours_css/issues"
+  },
+  "homepage": "https://github.com/ajayjarhad/natours_css#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
