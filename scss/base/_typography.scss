@@ -44,3 +44,34 @@ html {
         animation-timing-function: ease-out;
     }
 }
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, $primary_color_light, $primary_color_dark);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    transition: all 0.1s;
+
+    &:hover {
+        transform: skewY(2deg) skewX(10deg) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba($color-black, 0.2);
+    }
+}
+
+.heading-teritary {
+    font-size: $default_font_size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: $default_font_size;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
